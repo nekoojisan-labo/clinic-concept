@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap');
+
+*, *::before, *::after {
+  border-radius: 0 !important;
+}
+
+html { scroll-behavior: smooth; }
+body { @apply text-espresso bg-cream font-sans font-light; }
+
+.card-warm {
+  @apply bg-cream border-l-[3px] border-copper transition-all duration-300;
+  box-shadow: 2px 2px 8px rgba(60,40,20,0.06);
+}
+.card-warm:hover {
+  @apply -translate-y-1;
+  box-shadow: 4px 4px 16px rgba(60,40,20,0.1);
+  border-left-color: #A0522D;
+}
+
+.btn-copper {
+  @apply bg-copper text-cream px-6 py-3 text-sm font-sans font-medium tracking-wider hover:bg-sienna transition-colors;
+}
+
+.section-line {
+  @apply border-t border-copper/30 max-w-5xl mx-auto;
+}
+
+.label-en {
+  @apply font-serif text-copper text-xs tracking-[0.2em] uppercase;
+}

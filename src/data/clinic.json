@@ -1,0 +1,21 @@
+{
+  "name": "さくら内科クリニック",
+  "nameEn": "Sakura Internal Medicine Clinic",
+  "catchphrase": "地域のかかりつけ医として、あなたの健康をサポートします",
+  "phone": "03-1234-5678",
+  "fax": "03-1234-5679",
+  "postalCode": "150-0001",
+  "address": "東京都渋谷区神宮前1-2-3 メディカルビル2F",
+  "nearestStation": "JR山手線 原宿駅 徒歩5分 / 東京メトロ千代田線 明治神宮前駅 徒歩3分",
+  "parking": "ビル併設駐車場あり（3台分・無料）",
+  "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.169!2d139.7025!3d35.6695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzXCsDQwJzEwLjIiTiAxMznCsDQyJzA5LjAiRQ!5e0!3m2!1sja!2sjp!4v1",
+  "hours": [
+    { "day": "月", "morning": "9:00〜12:30", "afternoon": "15:00〜18:30" },
+    { "day": "火", "morning": "9:00〜12:30", "afternoon": "15:00〜18:30" },
+    { "day": "水", "morning": "9:00〜12:30", "afternoon": "休診" },
+    { "day": "木", "morning": "9:00〜12:30", "afternoon": "15:00〜18:30" },
+    { "day": "金", "morning": "9:00〜12:30", "afternoon": "15:00〜18:30" },
+    { "day": "土", "morning": "9:00〜13:00", "afternoon": "休診" },
+    { "day": "日・祝", "morning": "休診", "afternoon": "休診" }
+  ]
+}
