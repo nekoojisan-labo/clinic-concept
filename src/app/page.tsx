@@ -9,6 +9,13 @@ export default function Home() {
     <>
       {/* Hero */}
       <section className="relative min-h-[80vh] flex items-center bg-cream overflow-hidden">
+        {/* Background image */}
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: "url(/clinic-concept/images/hero-lobby.png)" }}
+        />
+        {/* Cream overlay for text readability */}
+        <div className="absolute inset-0 bg-cream/60" />
         {/* Morning light decoration — amber radial from upper-right */}
         <div
           className="absolute top-0 right-0 w-[600px] h-[600px] pointer-events-none"

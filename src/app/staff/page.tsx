@@ -19,15 +19,24 @@ export default function StaffPage() {
           {staff.map((member) => (
             <div key={member.id} className="card-warm p-8">
               <div className="flex flex-col md:flex-row gap-8">
-                {/* Photo placeholder */}
-                <div
-                  className="w-28 h-36 shrink-0 flex items-center justify-center"
-                  style={{ backgroundColor: "#F5EFE6", border: "1px solid #E8DDD0" }}
-                >
-                  <span className="text-xs text-sienna/40 font-light tracking-wider text-center px-2">
-                    Photo
-                  </span>
-                </div>
+                {/* Photo */}
+                {member.id === "director" ? (
+                  <img
+                    src="/clinic-concept/images/staff-director.png"
+                    alt={member.name}
+                    className="w-28 h-36 shrink-0 object-cover"
+                    style={{ border: "1px solid #E8DDD0" }}
+                  />
+                ) : (
+                  <div
+                    className="w-28 h-36 shrink-0 flex items-center justify-center"
+                    style={{ backgroundColor: "#F5EFE6", border: "1px solid #E8DDD0" }}
+                  >
+                    <span className="text-xs text-sienna/40 font-light tracking-wider text-center px-2">
+                      Photo
+                    </span>
+                  </div>
+                )}
 
                 {/* Info */}
                 <div className="flex-1">
